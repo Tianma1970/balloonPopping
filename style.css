@@ -1,0 +1,14 @@
+.balloons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.balloonRed {
+  border-radius: 50%;
+  background-color: red;
+  height: 150px;
+  width: 150px;
+}
+.hide {
+  display: none;
+}
