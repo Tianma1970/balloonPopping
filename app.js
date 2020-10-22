@@ -1,8 +1,9 @@
 const popRed = document.querySelector("section")
+const ploppText = popRed.querySelector("p")
 
-popRed.addEventListener("mouseenter", e => {
-  e.preventDefault()
+popRed.addEventListener("mouseenter", () => {
+  ploppText.classList.remove("hide")
+
+  popRed.classList.add("popped")
   console.log("test")
-  popRed.remove("section")
-  popRed.classList.remove("hide")
 })
