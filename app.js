@@ -31,6 +31,8 @@ popYellow.addEventListener("mouseenter", () => {
 })
 
 console.log(poppedBalloons)
-if (poppedBalloons.length > 3) {
+if ((poppedBalloons.length = 3)) {
+  let poppMsg = document.createElement("SPAN")
+  document.body.appendChild(poppMsg)
   //alert("YAY!")
 }
