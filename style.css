@@ -9,7 +9,27 @@
   height: 150px;
   width: 150px;
 }
+.balloonBlue {
+  border-radius: 50%;
+  background-color: blue;
+  height: 150px;
+  width: 150px;
+}
+
+.balloonYellow {
+  border-radius: 50%;
+  background-color: yellow;
+  height: 150px;
+  width: 150px;
+}
 .hide {
+  display: none;
+}
+
+.hideBlue {
+  display: none;
+}
+.hideYellow {
   display: none;
 }
 
