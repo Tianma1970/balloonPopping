@@ -4,20 +4,7 @@
   justify-content: space-around;
 }
 
-.balloonRed {
-  border-radius: 50%;
-  background-color: red;
-  height: 150px;
-  width: 150px;
-}
-.balloonBlue {
-  border-radius: 50%;
-  background-color: blue;
-  height: 150px;
-  width: 150px;
-}
-
-.balloonYellow {
+.balloon {
   border-radius: 50%;
   background-color: yellow;
   height: 150px;
